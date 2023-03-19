@@ -7,15 +7,15 @@ import css from './ContactForm.module.css';
 
 const initialState = {
     name: "",
-    phone: "",
+    number: "",
 };
 
 const ContactForm = () => {
     const dispatch = useDispatch();
     const [valeu, setValue] = useState({ ...initialState });
 
-    const handleAddContact = ({ name, phone }) => {
-        dispatch(fetchAddContact({ name, phone }));
+    const handleAddContact = ({ name, number }) => {
+        dispatch(fetchAddContact({ name, number }));
     };
 
     const handleChange = ({ target }) => {
@@ -32,10 +32,15 @@ const ContactForm = () => {
         setValue({ ...initialState });
     }
 
-    const { name, phone } = valeu;
+    const { name, number } = valeu;
 
     return (
         <form onSubmit={handleSubmit} className={css.form}>
+            <div className={`${css.circle1} ${css.circle}`}></div>
+            <div className={`${css.circle2} ${css.circle}`}></div>
+            <div className={`${css.circle3} ${css.circle}`}></div>
+            <div className={`${css.circle4} ${css.circle}`}></div>
+            <h1 className={css.title}>Phonebook</h1>
             <label className={css.label}>
                 Name
                 <input
@@ -53,11 +58,11 @@ const ContactForm = () => {
                 Number
                 <input
                     type="tel"
-                    name="phone"
+                    name="number"
                     pattern="\+?\d{1,4}?[-.\s]?\(?\d{1,3}?\)?[-.\s]?\d{1,4}[-.\s]?\d{1,4}[-.\s]?\d{1,9}"
                     title="Phone number must be digits and can contain spaces, dashes, parentheses and can start with +"
                     required
-                    value={phone}
+                    value={number}
                     onChange={handleChange}
                     className={css.label__input}
                 />

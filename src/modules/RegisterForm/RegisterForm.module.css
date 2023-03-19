@@ -1,0 +1,16 @@
+.form_inner {
+  padding: 50px;
+}
+
+.from_title {
+  margin-top: 0;
+  margin-bottom: 35px;
+  font-weight: 600;
+  font-size: 28px;
+  color: white;
+}
+
+.description {
+  font-size: 12px;
+  text-align: center;
+}

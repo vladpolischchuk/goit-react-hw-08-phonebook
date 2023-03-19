@@ -1,0 +1,15 @@
+.nav_link {
+  font-size: 28px;
+  text-decoration: none;
+  color: black;
+}
+
+.nav_link:hover,
+.nav_link:focus {
+  color: #f69a73;
+  font-weight: bold;
+}
+
+.nav_link:global(.active) {
+  font-weight: bold;
+}

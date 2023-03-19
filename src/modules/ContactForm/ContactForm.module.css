@@ -1,29 +1,94 @@
 .form {
-  padding-left: 50px;
+  position: relative;
+  margin-top: 30px;
+  padding: 30px;
+
+  background-color: #f69a73;
+
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.title {
+  text-align: center;
+  color: white;
 }
 
 .label {
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;
+
+  color: white;
+
+  font-size: 18px;
+  font-weight: 500;
 }
 
 .label__input {
+  padding: 10px;
   margin-top: 10px;
 
-  max-width: 200px;
+  width: 300px;
+  font-size: 16px;
+
+  border: 1px solid #f69a73;
+  border-radius: 5px;
 }
 
 .button__add {
-  width: 200px;
-  color: green;
+  padding: 10px;
+
+  width: 321px;
+
+  color: white;
   background-color: transparent;
-  border-color: green;
+  border: 2px solid white;
   border-radius: 5px;
+
+  font-size: 16px;
+  font-weight: bold;
+
+  transition: background-color 150ms ease-in-out, color 150ms ease-in-out;
 }
 
 .button__add:hover,
 .button__add:focus {
-  color: white;
-  background-color: green;
+  color: #f69a73;
+  background-color: white;
+}
+
+.circle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #f69a73;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.circle1 {
+  bottom: 80px;
+  left: -55px;
+}
+
+.circle2 {
+  top: 30px;
+  left: -75px;
+  width: 35px;
+  height: 35px;
+}
+
+.circle3 {
+  bottom: 30px;
+  right: -65px;
+  width: 27px;
+  height: 27px;
+}
+
+.circle4 {
+  top: 67px;
+  right: -75px;
+  width: 40px;
+  height: 40px;
 }

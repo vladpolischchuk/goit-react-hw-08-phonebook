@@ -1,0 +1,27 @@
+.user_name {
+  display: inline-block;
+  margin-right: 25px;
+
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.button {
+  padding: 10px;
+
+  font-family: inherit;
+  font-size: 16px;
+
+  color: #ffcda5;
+  background-color: transparent;
+  border: 1px solid #ffcda5;
+  border-radius: 20px;
+
+  transition: background-color 150ms ease-in-out, color 150ms ease-in-out;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #f69a73;
+  color: white;
+}

@@ -1,0 +1,29 @@
+.button {
+  display: block;
+  padding: 0 20px;
+  margin-bottom: 10px;
+
+  width: 100%;
+
+  line-height: 40px;
+
+  color: #f69a73;
+  background: white;
+  border: 1px solid #f69a73;
+  border-radius: 20px;
+
+  font-family: inherit;
+  font-size: 18px;
+  font-weight: bold;
+
+  outline: none;
+  transition: background-color 150ms ease-in-out, color 150ms ease-in-out,
+    border 150ms ease-in-out;
+}
+
+.button:hover,
+.button:focus {
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+}

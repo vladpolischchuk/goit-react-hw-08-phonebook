@@ -1,0 +1,45 @@
+.form {
+  position: relative;
+  max-width: 400px;
+  min-height: 457px;
+  margin: 50px auto 0;
+  background: #f69a73;
+  border-radius: 30px;
+
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.circle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #f69a73;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.circle1 {
+  bottom: 80px;
+  left: -55px;
+}
+
+.circle2 {
+  top: 30px;
+  left: -75px;
+  width: 35px;
+  height: 35px;
+}
+
+.circle3 {
+  bottom: 30px;
+  right: -65px;
+  width: 27px;
+  height: 27px;
+}
+
+.circle4 {
+  top: 67px;
+  right: -75px;
+  width: 40px;
+  height: 40px;
+}

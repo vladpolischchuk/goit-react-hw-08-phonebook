@@ -1,0 +1,26 @@
+.form_input {
+  display: block;
+  padding: 0 20px;
+  margin-bottom: 20px;
+
+  width: 260px;
+
+  background: #e9eff6;
+  border: 1px solid #f69a73;
+  border-radius: 20px;
+
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 40px;
+
+  outline: none;
+  transition: background-color 150ms ease-in-out, color 150ms ease-in-out,
+    border 150ms ease-in-out;
+}
+
+.form_input:hover,
+.form_input:focus {
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+}
