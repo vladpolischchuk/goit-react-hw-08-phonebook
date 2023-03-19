@@ -10,6 +10,7 @@ const HomePage = () => {
     const dispatch = useDispatch();
 
     const handleSignUp = (data) => {
+
         dispatch(signUp(data));
     };
 
